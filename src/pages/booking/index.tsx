@@ -205,7 +205,7 @@ export default function BookingPage() {
               ) : (
                 <div
                   aria-hidden
-                  className="h-[296px] w-[250px] animate-pulse rounded-lg border bg-muted/40"
+                  className="h-74 w-62.5 animate-pulse rounded-lg border bg-muted/40"
                 />
               )}
             </fieldset>

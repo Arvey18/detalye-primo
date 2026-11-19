@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 3000
+    },
+    {
+      "name": "preview-build",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["sirv", "build/client", "--port", "4173", "--single", "__spa-fallback.html"],
+      "port": 4173
+    }
+  ]
+}

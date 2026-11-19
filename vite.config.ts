@@ -33,6 +33,8 @@ export default defineConfig({
   plugins: [tailwindcss(), svgr(), !isTest && reactRouter()],
   server: {
     port: 3000,
+    // Open the site in your default browser when `npm run dev` starts.
+    open: true,
   },
   preview: {
     port: 3000,

@@ -5,7 +5,7 @@ Marketing website with online booking for Detalye Primo, a car detailing company
 ## Stack
 
 - **Vite + React 19 + TypeScript 6**
-- **React Router v7 (framework mode)**, static prerendering for SEO, see [SEO](#seo)
+- **React Router v8 (framework mode)**, static prerendering for SEO, see [SEO](#seo)
 - **Tailwind CSS v4** (via `@tailwindcss/vite`)
 - **shadcn/ui** (Radix base, Nova preset, Lucide icons) — add components with `npx shadcn@latest add <name>`
 - **Motion** (`motion/react`) for animations, **Lenis** for smooth scrolling
@@ -31,7 +31,7 @@ Marketing website with online booking for Detalye Primo, a car detailing company
 
 ## Setup
 
-1. Use Node 22.12+ (pinned in `.nvmrc`; with nvm/fnm run `nvm use`). `npm install` refuses older versions (`engine-strict` in `.npmrc`).
+1. Use Node 22.22+ (pinned in `.nvmrc`; with nvm/fnm run `nvm use`). `npm install` refuses older versions (`engine-strict` in `.npmrc`).
 2. `npm install`
 3. Copy `.env.example` to `.env` (the build fails with a clear message if it is missing).
 4. `npm run dev`

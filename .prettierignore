@@ -1,0 +1,8 @@
+# Generated output
+build
+dist
+coverage
+.react-router
+
+# Lockfiles
+package-lock.json

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Placeholder logo mark: a stylized droplet with a shine. Replace with the real logo. -->
+  <path d="M16 3C16 3 6 14.2 6 20.5C6 26 10.5 29.5 16 29.5C21.5 29.5 26 26 26 20.5C26 14.2 16 3 16 3Z" fill="currentColor"/>
+  <path d="M11.5 20.5C11.5 17.8 13.4 14.6 14.6 13" stroke="var(--background, #fff)" stroke-width="2" stroke-linecap="round"/>
+</svg>
